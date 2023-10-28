@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de Multiplicar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Generar Tabla de Multiplicar</h1>
+        <div class="form-group">
+            <label for="numero">Selecciona un número del 1 al 10:</label>
+            <select class="form-control" id="numero">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <button class="btn btn-primary btn-block" onclick="generarTabla()">Generar Tabla</button>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center">Tabla de Multiplicar</h2>
+        <table class="table table-bordered table-striped table-responsive" id="tablaMultiplicar">
+        </table>
+    </div>
+
+    <script src="script5.js"></script>
+</body>
+</html>

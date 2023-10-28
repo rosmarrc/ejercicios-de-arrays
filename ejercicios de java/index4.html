@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de Multiplicar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generar Tabla de Multiplicar</h1>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Ingresar Valor</button>
+    </div>
+
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Ingrese un valor del 1 al 10:</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="number" id="valorInput" min="1" max="10" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal" onclick="generarTabla()">Generar Tabla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Tabla de Multiplicar</h2>
+        <table class="table table-bordered" id="tablaMultiplicar">
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script4.js"></script>
+</body>
+</html>

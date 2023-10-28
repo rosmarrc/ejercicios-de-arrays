@@ -1,0 +1,16 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+.modal-title {
+    color: #007BFF;
+}
